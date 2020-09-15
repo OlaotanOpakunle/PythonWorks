@@ -1,0 +1,8 @@
+Name = input("Tell me your name: ")
+print("Hello ", Name)
+
+ANumber = float(input("Type a number: "))
+print("You typed ", ANumber)TestMe = 6
+
+if TestMe == 6:
+    print("testme does equal 6")

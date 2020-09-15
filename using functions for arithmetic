@@ -2,3 +2,8 @@ def AddIt(V1, V2):
     print(V1, "+", V2, "=", (V1 + V2))
 AddIt(3, 5)
 3 + 5 = 8
+
+AddIt(V2 = 6, V1 = 21)
+/* mixing up the variables so as to test the function
+*/
+21 + 6 = 27

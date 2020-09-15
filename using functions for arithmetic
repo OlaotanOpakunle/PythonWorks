@@ -7,3 +7,20 @@ AddIt(V2 = 6, V1 = 21)
 /* mixing up the variables so as to test the function
 */
 21 + 6 = 27
+
+/* Using a function for multiple purposes*/
+def Hello3(Greeting = "No value supplied"):
+    print(Greeting)
+    
+Hello3()
+Hello3("This is a string")
+Hello3(5+5)
+Hello3(97 * 32)
+/output:
+No value supplied
+This is a string
+10
+3104
+
+Hello3(5+6)
+output: 11

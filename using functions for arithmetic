@@ -1,0 +1,4 @@
+def AddIt(V1, V2):
+    print(V1, "+", V2, "=", (V1 + V2))
+AddIt(3, 5)
+3 + 5 = 8

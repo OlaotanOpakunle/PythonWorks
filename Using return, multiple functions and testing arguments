@@ -1,0 +1,13 @@
+def Hello4(ArgCount, *VarArgs):
+    print("You passed ", ArgCount, " arguments.")
+    for Arg in VarArgs:
+        print(Arg)
+        
+Hello4(1, "A Test String.")
+
+Hello4(3, "One", "Two", "Three")
+      
+def DoAdd(V1, V2):
+    return V1 + V2
+    
+print("3 + 4 equals 2 + 5 is ", (DoAdd(1,4) == DoAdd(1,6)))

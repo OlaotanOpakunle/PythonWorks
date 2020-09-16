@@ -1,0 +1,82 @@
+LetterNum = 1
+for Letter in "Hippopotamus":
+    print("Letter", LetterNum, "is", Letter)
+    LetterNum += 1
+ output:
+ Letter 1 is H
+Letter 2 is i
+Letter 3 is p
+Letter 4 is p
+Letter 5 is o
+Letter 6 is p
+Letter 7 is o
+Letter 8 is t
+Letter 9 is a
+Letter 10 is m
+Letter 11 is u
+Letter 12 is s
+
+
+"""
+Second for itiration
+
+"""
+Value = input("type less than 6 characters: ")
+LetterNum = 1
+for Letter in Value:
+    print("Letter", LetterNum, "is", Letter)
+    LetterNum += 1
+    if LetterNum > 6:
+        print("The string is too long")
+        break
+        
+ output:
+ type less than 6 characters: yeyeyeyey
+Letter 1 is y
+Letter 2 is e
+Letter 3 is y
+Letter 4 is e
+Letter 5 is y
+Letter 6 is e
+The string is too long
+
+"""
+combining for loops with conditional statements 
+"""
+LetterNum = 1
+for Letter in "Howdy!":
+    if Letter == 'w':
+        continue
+        print("encountered w, not processed. ")
+    print("Letter", LetterNum, "is", Letter)
+    LetterNum += 1
+output:
+Letter 1 is H
+Letter 2 is o
+Letter 3 is d
+Letter 4 is y
+Letter 5 is !
+
+"""
+using the continue function to skip steps in a loop
+"""
+
+LetterNum = 1
+for Letter in "Howdy!":
+    if Letter == "w":
+        pass
+        print("encountered w, not processed. ")
+    print("Letter", LetterNum, "is", Letter)
+    LetterNum += 1
+output:
+Letter 1 is H
+Letter 2 is o
+encountered w, not processed. 
+Letter 3 is w
+Letter 4 is d
+Letter 5 is y
+Letter 6 is !
+
+"""
+using the pass function to process a specific itiration in a for loop
+"""

@@ -1,0 +1,119 @@
+ANumber = float(input("Type a number: "))
+print("You typed ", ANumber)
+
+"""
+working with various data types, including int, float, string, char
+"""
+
+TestMe = 6
+
+if TestMe == 6:
+    print("testme does equal 6")
+"""
+Basic conditional statement with just the "if" condition
+"""
+
+Value = int(input("Type a number between 1 and 10: "))
+if (Value > 0) and (Value <= 10):
+    print("You typed: ", Value)
+"""
+Condtitonal statement that takes input from the user
+"""
+Value = int(input("type a number between 1 and 10: "))
+if (Value > 0) and (Value <= 10):
+    print("You typed: ", Value)
+else:
+        print("The value you typed is unexpected")
+"""
+conditional statement that uses both if and else
+"""
+
+print("1. Red")
+print("2. Orange")
+print("3. Yellow")
+print("4. Green")
+print("5. Blue")
+print("6. Purple")
+
+Choice = int(input("Select your favourite color: "))
+
+if (Choice == 1):
+    print("You chosed Red")
+elif (Choice == 2):
+    print("You chose Orange")
+elif (Choice == 3):
+    print("You chose Yellow!")
+elif (Choice == 4):
+    print("You chose Green!")
+elif (Choice == 5):
+    print("You chose Blue!")
+elif (Choice == 6):
+    print("You chose Purple!")
+else:
+    print("You made an invalid choice!")
+    
+"""
+An array of choices made possible by the elif statement. unlike java, there is no switch statement here, yet.
+"""
+
+One = int(input("Type a number between 1 and 10: "))
+Two = int(input("Type a number between 1 and 10: "))
+
+if (One >= 1) and (One <= 10):
+    if (Two >= 1) and (Two <= 10):
+        print("Your secret number is: ", One * Two)
+    else:
+        print("Incorrect second value")
+else:
+    print("Incorrect first value")
+    
+ """
+ indentation for if and else. Indentation is huge in python
+ """
+ print("1. Eggs")
+print("2. Pancakes")
+print("3. Waffles")
+print("4. Oatmeal")
+
+MainChoice = int(input("Choose a breakfast item: "))
+if (MainChoice == 2):
+    Meal = "Pancakes"
+elif (MainChoice == 3):
+    Meal = "Waffles"
+if(MainChoice == 1):
+    print("1. Wheat Toast")
+    print("2. Sour Dough")
+    print("3. Rye Toast")
+    print("4. Pancakes")
+    Bread = int(input("Choose a type of bread: "))
+    if (Bread == 1):
+        print("You chose eggs with wheat toast.")
+    elif (Bread == 2):
+        print("You chose eggs with sour dough.")
+    elif (Bread == 3):
+        print("You chose eggs with rye toast.")
+    elif (Bread == 4):
+        print("You chose eggs with pancakes.")
+    else:
+        print("We have eggs, but not that kind of bread.")
+elif (MainChoice == 2) or (MainChoice == 3):
+    print("1. Syrup")
+    print("2. Strawberries")
+    print("3. Powdered Sugar")
+    Topping = int(input("Choose a topping: "))
+    if (Topping == 1):
+        print("You chose " + Meal + " with syrup")
+    elif ("Topping == 2"):
+        print("You chose " + Meal + " with strawberries")
+    elif ("Topping == 3"):
+        print("You chose" + Meal + " with powdered sugar" )
+    else:
+        print("We have" + Meal + " but not that topping")
+elif (MainChoice == 4):
+    print("You chose oatmeal.")
+    
+else:
+    print("We don't serve that breakfast item!")
+"""
+indentatiion at work in conditional statements. 
+"""

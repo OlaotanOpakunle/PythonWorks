@@ -1,0 +1,47 @@
+try:
+    Value = int(input("type a number between 1 abnd 10: "))
+except ValueError:
+    print("You must type a number between 1 and 10!")
+else:
+    if(Value > 0) and (Value <= 10):
+        print("You typed: ", Value)
+    else:
+        print("The value you typed is incorrect")
+        
+  output:
+  type a number between 1 abnd 10: 7
+You typed:  7
+"""
+considers the fact that the user may type a character different from what is expected so it captures the error and alerts the user.
+"""
+
+try:
+    Value = int(input("type a number between 1 and 10: "))
+except ValueError:
+    print("You must type a number between 1 and 10!")
+except:
+    print("This is a generic error!")
+else:
+    if(Value > 0) and (Value <= 10):
+        print("You typed: ", Value)
+    else:
+        print("The value you typed is incorrect")
+ """
+ Computes value error which factors what the user inouts and checks if it tallies with the kind of character expected
+ and then uses the else statement to generalise other forms of errors
+ """
+ 
+ import sys
+try:
+    File = open('myfile.txt')
+except IOError as e:
+    print("Error opening file!\r\n" +
+    "Error Number: {0}\r\n".format(e.errno) +
+    "Error Text: {0}".format(e.strerror))
+else:
+    print("File opened as expected.")
+    File.close();
+    
+ """
+ This is applicable when a system file is being created or read and such file does not exist on the dis. it works like the throws FileNotFoundException function in java.
+ """

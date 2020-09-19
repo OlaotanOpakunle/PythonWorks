@@ -1,0 +1,60 @@
+try:
+    Value = int(input("Type a number between 1 and 10: "))
+except (ValueError, KeyboardInterrupt):
+    print("You must type a number between 1 and 10!")
+else:
+    if(Value > 0) and (Value <= 10):
+        print("You typed", Value)
+    else:
+        print("The value you typed is incorrect!")
+
+
+try:
+    Value1 = int(input("Type the first number: "))
+    Value2 = int(input("Type the second number: "))
+    Output = Value1 / Value2
+except ValueError:
+    print("You must type a whole number!")
+except KeyboardInterrupt:
+    print("You typed Ctrl+C!")
+except ZeroDivisionError:
+    print("An attempt to divide by zero!")
+except ArithmeticError:
+    print("An undefined math error occured.")
+else:
+    print(Output)
+    
+output:
+
+Type the first number: 8
+Type the second number: 0
+An attempt to divide by zero!
+"""
+An error handling code that considers various kinds of bugs that can occur in an aritghmetic code such as dividing by zero and the user pressing CTRL+C
+"""
+
+TryAgain = True
+while TryAgain:
+    try:
+        Value = int(input("Type a whole number: "))
+    except ValueError:
+        print("You must type a whole number!")
+        try:
+            DoOver = input("Try again (y/n)? ")
+        except:
+            print("OK, see you next time!")
+            TryAgain = False
+        else:
+            if (str.upper(DoOver) == "N"):
+                TryAgain = False
+    except KeyboardInterrupt:
+        print("You pressed Ctrl+C!")
+        print("See you next time!")
+        TryAgain = False
+else:
+    print(Value)
+    TryAgain = False  
+    
+ """
+ A repetitve code that allows the user to go again if they type an unexpected input. Itstops running when a runnable input is computed
+ """

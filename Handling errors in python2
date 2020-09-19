@@ -58,3 +58,43 @@ else:
  """
  A repetitve code that allows the user to go again if they type an unexpected input. Itstops running when a runnable input is computed
  """
+
+while TryAgain:
+    try:
+        Value = int(input("Type a whole number: "))
+    except ValueError:
+        print("You must type a whole number!")
+    try:
+        DoOver = input("Try again? Y/N: ")
+    except:
+        print("OK, see you next time!")
+        TryAgain = False
+    else:
+        if(str.upper(DoOver) == "N"):
+            TryAgain = False
+except KeyboardInterrupt:
+        print("You pressed Ctrl+C!")
+        print("See you next time!")
+        TryAgain = False
+    else:
+        print(Value)
+        TryAgain = False
+        
+  """
+  Works in a similar way to the code before it
+  """
+  
+  try:
+    Value1 = int(input("Input first number: "))
+    Value2 = int(input("Input second number: ")) 
+    Output = Value1 / Value2
+except ValueError:
+    print("You must type a whole number")
+except KeyboardInterrupt:
+    print("You pressed Ctrl+C!")
+except ZeroDivisionError:
+    print("Attempted to divide by zero!")
+except ArithmeticError:
+    print("An undefined math error occured")
+else:
+    print(Output) 

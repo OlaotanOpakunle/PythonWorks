@@ -9,7 +9,7 @@ public class starsToSee {
 		int num;
 		int show;
 		
-		
+	
 			
 			
 		System.out.print("Would you like to see a row of stars?: ");

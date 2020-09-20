@@ -32,7 +32,7 @@ public class scatter {
 		System.out.print(c1);
 		System.out.println();
 		
-		System.out.print(c2);
+		System.out.print(c2); 
 		System.out.print(c1);
 		System.out.print(c3);
 		System.out.println();

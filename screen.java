@@ -25,6 +25,6 @@ public class screen {
 		s.close();
 		s2.close();
 
-	}
+	} 
 
 }

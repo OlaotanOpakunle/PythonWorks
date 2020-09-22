@@ -11,3 +11,6 @@ def DoAdd(V1, V2):
     return V1 + V2
     
 print("3 + 4 equals 2 + 5 is ", (DoAdd(1,4) == DoAdd(1,6)))
+"""
+basic introductory aspects of python  
+"""

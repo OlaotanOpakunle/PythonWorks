@@ -17,7 +17,7 @@ public class Local {
 		
 		System.out.print("Unit price: ");
 	    unitPrice = keyboard.nextDouble();
-	    System.out.print("Quantity: ");
+	    System.out.print("Quantity: ");  
 	    quantity = keyboard.nextInt();
 	    System.out.print("Taxable? (true/false) ");
 	    taxable = keyboard.nextBoolean();

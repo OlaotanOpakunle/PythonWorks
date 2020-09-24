@@ -22,6 +22,6 @@ class ListOneUsername {
       diskWriter.println();
 
       diskScanner.close();
-      diskWriter.close();
+      diskWriter.close(); 
    }
 }

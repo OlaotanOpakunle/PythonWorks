@@ -22,7 +22,7 @@ public class ReadStars {
 		
 		}
 		
-		s.close();
+		s.close(); 
 	}
 
 }

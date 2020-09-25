@@ -13,7 +13,7 @@ public class ReadStars {
 			symbol = s.findWithinHorizon(".", 0).charAt(0);
 			
 			while(symbol == '*') {
-				
+				 
 				System.out.print(symbol);
 				symbol = s.findWithinHorizon(".", 0).charAt(0);
 			}

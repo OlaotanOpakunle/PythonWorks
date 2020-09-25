@@ -8,14 +8,8 @@ public class starsToSee {
 		int num;
 		int show;
 		
-	
-			
-			
-	
 		System.out.print("How many stars do you want to see?: ");
 		num = s.nextInt();
-		
-		
 		
 		show = 0;
 		while(show < num) {
@@ -25,16 +19,10 @@ public class starsToSee {
 			
 			s.nextLine();
 
-		
-			
 		}
 		
 		System.out.println();
 		
-			
-
-			
-			
 		}
 		s.close();
 			}

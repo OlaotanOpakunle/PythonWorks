@@ -6,7 +6,7 @@ public class poundConverter {
 
 	public static void main(String[] args) {
 		int pounds = 1; 
-		double dollars = 1.25;
+		double dollars = 1.25; 
 		int num;
 		Scanner s = new Scanner(System.in);
 			

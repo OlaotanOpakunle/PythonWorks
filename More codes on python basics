@@ -29,7 +29,7 @@ conditional statement that uses both if and else
 """
 
 print("1. Red")
-print("2. Orange")
+print("2. Orange") 
 print("3. Yellow")
 print("4. Green")
 print("5. Blue")

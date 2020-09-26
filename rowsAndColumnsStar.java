@@ -10,7 +10,7 @@ public class rowsAndColumnsStar {
 			  }
 			  System.out.println();	
 			  }
-		
+		 
 		
 	}
 }

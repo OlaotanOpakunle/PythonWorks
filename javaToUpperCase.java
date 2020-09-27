@@ -10,9 +10,9 @@ public class javaToUpperCase {
 		char symbol;
 		Scanner s = new Scanner(new File("input.txt"));
 		PrintStream s2 = new PrintStream("Capital.txt");
-		 
 		
-			while(s.hasNext()) { 
+		
+			while(s.hasNext()) {
 				symbol = s.findWithinHorizon(".", 0).charAt(0);
 				
 				s2.print(Character.toUpperCase(symbol));

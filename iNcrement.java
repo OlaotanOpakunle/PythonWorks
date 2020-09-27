@@ -15,7 +15,7 @@ public class iNcrement {
 				
 				System.out.println(i);
 				
-				System.out.println(i += 3);
+				System.out.println(i += 3); 
 				
 				System.out.println(i /= 2);
 				

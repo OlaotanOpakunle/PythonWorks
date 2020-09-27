@@ -11,7 +11,7 @@ public class height {
         System.out.print("Input your height in feet followed by inches: ");
 	    Scanner s = new Scanner(System.in);
 	    
-	    
+	     
 	    
 	    heightFoot = s.nextDouble();
 	    

@@ -11,7 +11,7 @@ public class javaToUpperCase {
 		Scanner s = new Scanner(new File("input.txt"));
 		PrintStream s2 = new PrintStream("Capital.txt");
 		
-		
+		 
 			while(s.hasNext()) {
 				symbol = s.findWithinHorizon(".", 0).charAt(0);
 				
